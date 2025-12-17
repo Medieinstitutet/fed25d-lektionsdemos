@@ -1,0 +1,15 @@
+main {
+  display: grid;
+  grid-template-columns: 10px 200px auto auto auto auto auto auto 50% auto auto auto;
+  gap: 8px;
+}
+
+.first {
+  background-color: antiquewhite;
+  grid-column: span 4;
+}
+
+.second {
+  background-color: cadetblue;
+  grid-column: span 2;
+}

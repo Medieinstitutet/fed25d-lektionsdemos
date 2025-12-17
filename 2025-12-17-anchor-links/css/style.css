@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+label {
+  display: block;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+label span {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+
+  transition: top 5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+input[type="text"]:focus + span {
+  top: -50px;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 4px;
+  font-size: 0.8rem;
+}
+
+fieldset {
+  padding: 16px;
+
+  padding-top: 80px;
+}
+
+label input[type="radio"] {
+  margin-right: 16px;
+}
+
+.full-height {
+  min-height: 100vh;
+}
+
+.full-height:nth-of-type(1) {
+  background-color: burlywood;
+}
+
+.full-height:nth-of-type(2) {
+  background-color: rgb(35, 77, 87);
+}
+
+.full-height:nth-of-type(3) {
+  background-color: rgb(138, 33, 87);
+}
