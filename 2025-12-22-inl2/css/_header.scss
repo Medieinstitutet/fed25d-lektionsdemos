@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  nav {
+
+    background: orange;
+    position: fixed;
+    width: 100%;
+    height: calc(100% - 80px);
+    top: 80px;
+    left: 0;
+
+    display: grid;
+    align-items: center;
+
+    display: none; // TODO: Remove to show menu
+
+    ul {
+      list-style: none;
+      text-align: center;
+    }
+  }
+}

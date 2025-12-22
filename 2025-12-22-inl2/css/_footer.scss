@@ -1,0 +1,10 @@
+footer {
+  background-color: gray;
+}
+
+@media screen and (min-width: 1024px) {
+  footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
