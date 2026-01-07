@@ -1,0 +1,40 @@
+@media screen and (min-width: 820px) {
+  body {
+    background-color: yellow;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    .left {
+      border-right: 3px solid blue;
+    }
+
+    ul li {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    ul li span:nth-child(2) {
+      min-width: 35px;
+    }
+
+    .inner {
+      padding: 8px;
+    }
+
+    .border-top {
+      border-top: 3px solid blue;
+    }
+  }
+
+  .spacer {
+    height: 8px;
+  }
+}

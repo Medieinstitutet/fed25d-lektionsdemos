@@ -1,0 +1,36 @@
+header {
+  background-color: rgb(137, 137, 170);
+}
+
+main {
+  padding: 8px;
+}
+
+.menu-list {
+  h2 {
+    border-bottom: 3px solid blue;
+  }
+
+  h3 {
+    color: blue;
+  }
+}
+
+.menu {
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}
+
+.coffee-cup img {
+  display: block;
+  margin-inline: auto;
+  position: relative;
+  top: -15px;
+}
+
+footer {
+  border-top: 3px solid black;
+}
