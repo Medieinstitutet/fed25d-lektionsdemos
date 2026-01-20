@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2026-01-13-inl-1</title>
+  </head>
+  <body>
+    <main>
+
+      <div>
+        <label>
+          <span>Filtrera</span>
+          <select id="filterList">
+            <option value="all" selected>All</option>
+            <option value="drinks">Drinks</option>
+            <option value="utilities">Utilities</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Sortera</span>
+          <select id="sortListByPrice">
+            <option selected disabled>Ingen sortering</option>
+            <option value="low">Billigast</option>
+            <option value="high">Dyrast</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+        Filtrera:
+        <button id="drinksFilterBtn">Drinks</button>
+        <button id="utilsFilterBtn">Utilities</button>
+        <button id="accessoriesFilterBtn">Accessories</button>
+        <button id="showAllFilterBtn">Visa alla</button>
+      </div>
+
+      <div>
+        Sortera:
+        <button id="sortByNameBtn">Namn (A-Z)</button>
+        <button id="sortByPriceBtn">Dyrast överst</button>
+      </div>
+
+      <section class="products-list" id="products">
+      </section>
+
+      <section>
+        <h2>Kunduppgifter</h2>
+        <form>
+          <label>
+            <span>Förnamn</span>
+            <input type="text" placeholder="Förnamn">
+          </label>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
