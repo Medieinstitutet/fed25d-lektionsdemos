@@ -42,6 +42,8 @@ function printProducts() {
   increaseButtons.forEach((btn) => {
     btn.addEventListener('click', increaseProductCount);
   });
+
+  // TODO: Gör samma sak för minus-knapparna
 }
 
 function increaseProductCount(e) {
