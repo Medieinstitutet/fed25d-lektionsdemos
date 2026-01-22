@@ -1,0 +1,33 @@
+.products-list article {
+  border: 3px solid black;
+  margin-bottom: 4px;
+}
+
+.products-list .metadata {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-total {
+  transition: all 0.3s ease-in-out;
+}
+
+.highlight-price {
+  font-family: 'Comic Sans MS', cursive;
+  color: red;
+}
+
+.cart {
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 720px) {
+  .products-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+  }
+  .products-list article {
+    width: 30%;
+  }
+}
