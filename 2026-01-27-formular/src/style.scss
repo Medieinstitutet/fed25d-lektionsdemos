@@ -1,0 +1,52 @@
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+form {
+  max-width: 65ch;
+
+  label {
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 32px;
+    input {
+      width: 200px;
+      padding: 4px 8px;
+      border-radius: 4px;
+      border: 1px solid black;
+    }
+    span {
+      &.error {
+        // display: none;
+        width: 100%;
+        grid-column: span 2;
+        color: red;
+        font-weight: bold;
+        border-left: 4px solid red;
+        padding-left: 8px;
+        line-height: 1;
+        padding-bottom: 3px;
+        &::before {
+          content: 'error';
+          font-family: 'Material Symbols Outlined';
+          font-size: 1.2rem;
+          position: relative;
+          top: 4px;
+          display: inline-block;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+}
