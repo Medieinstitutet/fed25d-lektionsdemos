@@ -11,6 +11,10 @@ body {
   font-size: 1rem;
 }
 
+.hidden {
+  display: none;
+}
+
 form {
   max-width: 65ch;
 
@@ -28,7 +32,6 @@ form {
     }
     span {
       &.error {
-        // display: none;
         width: 100%;
         grid-column: span 2;
         color: red;
