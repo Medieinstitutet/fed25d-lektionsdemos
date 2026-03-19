@@ -1,0 +1,56 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.screen1 {
+  background-color: green;
+}
+
+.screen2 {
+  background-color: yellow;
+}
+
+.enter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  transform: translate(-50%, -50%);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 40px;
+}
+
+.green {
+  background-color: lime;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
